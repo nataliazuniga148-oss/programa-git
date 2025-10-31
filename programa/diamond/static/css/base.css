@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../img/fondo_diamantes.jpg') no-repeat center top;
+    background-size: cover;
+    color: #000;
+}
+
+/* Encabezado */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+/* Menú superior */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.icono-menu {
+    width: 30px;
+    height: auto;
+}
+
+/* Contenido principal */
+.contenido {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contenido h2 {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Botones */
+.botones {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.botones button {
+    width: 200px;
+    background-color: #81a7c2;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botones button:hover {
+    background-color: #6793af;
+}

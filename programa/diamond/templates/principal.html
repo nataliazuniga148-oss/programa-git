@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Diamond Security{% endblock %}
+
+{% block content %}
+<header class="encabezado">
+    <div class="logo">
+        <img src="{% static 'img/logo.png' %}" alt="Logo Diamond Security">
+        <h1>DIAMOND SECURITY</h1>
+    </div>
+    <div class="menu">
+        <img src="{% static 'img/menu.png' %}" alt="Menú" class="icono-menu">
+        <a href="#">REGISTRARSE</a>
+        <a href="#">INICIAR SESIÓN</a>
+    </div>
+</header>
+
+<main class="contenido">
+    <h2>DIAMOND SECURITY</h2>
+    <div class="botones">
+        <button>COTIZAR</button>
+        <button>SOBRE NOSOTROS</button>
+        <button>CONTACTO</button>
+        <button>INTEGRACIONES</button>
+    </div>
+</main>
+{% endblock %}
+
+{% endblock %}
